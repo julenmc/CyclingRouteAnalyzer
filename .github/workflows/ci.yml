@@ -1,8 +1,8 @@
-name: CD CyclingRouteAnalyzer
+name: CI CyclingRouteAnalyzer
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches: [ develop ]
 
 jobs:
   build-test-pack-publish:
@@ -25,9 +25,3 @@ jobs:
 
     - name: Test
       run: dotnet test --configuration Release --no-build
-
-    - name: Pack
-      run: dotnet pack --configuration Release -o ./artifacts
-
-    - name: Publish to NuGet
-      run: dotnet nuget push "./artifacts/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
