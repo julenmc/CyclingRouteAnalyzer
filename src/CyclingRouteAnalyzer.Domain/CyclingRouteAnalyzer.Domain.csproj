@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	<RootNamespace>Katebarik.CyclingRouteAnalyzer</RootNamespace>
+
+	<PackageId>Katebarik.CyclingRouteAnalyzer</PackageId>
+	<Version>0.1.0</Version>
+	<Authors>Julen Martin</Authors>
+	<Company>Katebarik</Company>
+	<Description>Cycling route analyzer engine.</Description>
+	<PackageTags>cycling;route;analyzer</PackageTags>
+
+	<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>

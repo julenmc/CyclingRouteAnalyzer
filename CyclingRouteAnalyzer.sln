@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclingRouteAnalyzer.Domain", "src\CyclingRouteAnalyzer.Domain\CyclingRouteAnalyzer.Domain.csproj", "{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C53E8071-83DF-4B58-B4A5-B153E5BF358F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclingRouteAnalyzer.Domain.UnitTests", "tests\CyclingRouteAnalyzer.Domain.UnitTests\CyclingRouteAnalyzer.Domain.UnitTests.csproj", "{2ECA0DF6-AA13-3627-971F-394C331B93D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECA0DF6-AA13-3627-971F-394C331B93D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECA0DF6-AA13-3627-971F-394C331B93D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECA0DF6-AA13-3627-971F-394C331B93D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECA0DF6-AA13-3627-971F-394C331B93D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7607FEE5-5E8C-BF6A-C2A9-335BE6843D99} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2ECA0DF6-AA13-3627-971F-394C331B93D5} = {C53E8071-83DF-4B58-B4A5-B153E5BF358F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0704F75-0836-4882-A1BA-0FFE9588914B}
+	EndGlobalSection
+EndGlobal
