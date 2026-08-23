@@ -1,4 +1,4 @@
-name: CI-CD CyclingPhysics
+name: CI CyclingRouteAnalyzer
 
 on:
   pull_request:

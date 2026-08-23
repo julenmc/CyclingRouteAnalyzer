@@ -1,4 +1,4 @@
-name: CI-CD CyclingPhysics
+name: CD CyclingRouteAnalyzer
 
 on:
   push:
